@@ -39,11 +39,13 @@ span:after {
 nav{
     display: flex;
     gap: 100px;
+    padding: 20px;
 }
 #landing{
     display: flex;
     gap: 50px;
     background-position: center;
+    padding: 30px;
 }
 .jar{
 display: flex;
@@ -52,4 +54,54 @@ display: flex;
 
 #lotus{
 display: flex;
+gap: 50px;
+padding: 50px;
 }
+
+#allPlants{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+#first-three{
+    display: flex;
+    gap: 30px;
+}
+#three-pots{
+    display: flex;
+    gap: 50px;
+}
+#svn-img{
+    display: flex;
+    padding: 20px;
+}
+#feature{
+    text-align: center;
+}
+
+#glass{
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    text-align: left;
+}
+#hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+
+  }
+  #first-row{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
